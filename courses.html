@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href= "css/style.css" >
+        <link rel="icon" href="res/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link " href="index.html">Home </a>
+            <a class="nav-item nav-link active" href="courses.html">Courses<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            
+          </div>
+        </div>
+      </nav>
+      
+            <div id="ex1" class="modal">
+                <p>This is a GoMyCode Track. </p> 
+                     <p> Each track has its own goal. </p> 
+                      <p>By adopting this track, you chose your own goal.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+          
+
+            <div class="item2">
+                <center><h1 class="titre"><B>COURSES</B></h1>
+                      
+            </div>
+          <br>
+          <br>
+
+                    <div align="center" class="col-xs-12">
+                            
+                        <div id="bloc1">      
+                            <center><button id="web1"  ><a href="#ex1" rel="modal:open"> view more</a></button></center>
+                        </div>
+                        <div id="bloc2">
+                          <center> <button id="web2"  ><a href="#ex1" rel="modal:open"> view more</a></button></center>
+                        </div>
+                        <div id="bloc3">
+                           <center><button id="web3"  ><a href="#ex1" rel="modal:open"> view more</a></button></center>
+                        </div> 
+                      </div>
+                           
+                              
+                    
+                    <br>
+                    <div align="center" class="col-xs-12">
+                            
+                        <div id="bloc4">      
+                            <center><button id="web4"  ><a href="#ex1" rel="modal:open"> view more</a></button></center>
+                        </div>
+                        <div id="bloc5">
+                          <center> <button id="web5"  ><a href="#ex1" rel="modal:open"> view more</a></button></center>
+                        </div>
+                        <div id="bloc6">
+                           <center><button id="web6"  ><a href="#ex1" rel="modal:open"> view more</a></button></center>
+                        </div> 
+                      </div>
+               </div>
+               <br>
+
+     <center>
+    <h1><B>Feedback</B></h1>
+        <form>
+                
+                <button onclick="modifB()">B</button>
+                <button onclick="modifI()">I</button>
+                <button onclick="modifU()">U</button>
+                <select id="taille" onchange="modiftaille()">
+                    <option>20px</option>
+                    <option>30px</option>
+                    <option>40px</option>
+                    </select>
+                <select id="police" onchange="modif()">
+                    <option>arial</option>
+                    <option>verdana</option>
+                    <option>geneva</option>
+                </select>
+                <br>
+                <br>
+                <textarea cols="120" rows="10" id="txtar"></textarea>
+        
+         </form>
+        </center>
+</body>
+<script src= "js/main.js"> </script>
+</html>

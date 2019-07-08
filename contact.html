@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href= "css/style.css" >
+        <link rel="icon" href="res/logo.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+</head>
+<body>
+
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link " href="index.html">Home </a>
+            <a class="nav-item nav-link " href="courses.html">Courses</a>
+            <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            
+          </div>
+        </div>
+      </nav>
+      
+
+            <div class="item2">
+              <center><h1 class="titre"><B>CONTACT</B></h1></center>
+            </div>
+            <br>
+            <br>
+      <center>
+    <form id="contactForm">
+        <label class="col-xs-12">Name</label><br>
+        <input type="text" id="name" name="name">
+        <br>
+        <label class="col-xs-12">Track</label><br>
+        <select class="col-xs-12" >
+            <option>web</option>
+            <option>Game</option>
+            <option>AI</option>
+            </select>
+        <br>
+        <label class="col-xs-12">E-mail adress</label><br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label class="col-xs-12">Phone number</label><br>
+        <input type="number" id="phone" name="phone">
+        <br>
+        <br>
+        <input type="submit" value="submit" id="submitButton">
+
+        <!--<button class="col-xs-12" type="submit" value="submit" id="submitButton" >Submit</button>-->
+
+    </form>
+    
+    </center>
+    </div>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+
+<script src="script.js"></script>  
+    
+</body>
+</html>

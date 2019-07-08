@@ -1,0 +1,212 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+        
+        top: 0;
+        width: 100%;
+    
+  }
+
+  li {
+    display: inline;
+  }
+
+#ent{
+    margin-left:23%;
+}
+.item2{
+    background-image:url('../res/webdev.jpg');
+    filter: blur(5px);
+    width:100%;
+    height:600px;
+}
+
+.titre{
+    padding-top: 300px;
+    color:white;
+    font-size: 100px;
+}
+.bloc{
+    height: 250px;
+    width: 100%;
+
+}
+#bloc1{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    background-image:url('../res/web1.png');
+    display:inline-block;
+    opacity: 1;
+
+}
+#bloc1:hover{
+    opacity: 0.5;
+    
+}
+#web1{
+    margin-top:120px;
+    display:none;
+    position:absolute;
+    
+} 
+
+#bloc2{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    background-image:url('../res/web2.png');
+    display:inline-block;
+    opacity:1;
+    
+}
+#bloc2:hover{
+    background-color:black;
+    opacity:0.5; 
+}
+#web2{
+    margin-top:120px;
+    display:none;
+    position:absolute;
+    
+
+}
+
+#bloc3{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    background-image:url('../res/web3.png');
+    display:inline-block;
+    opacity:1;
+    
+}
+#bloc3:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+#web3{
+    margin-top:120px;
+    display:none;
+    position:absolute;
+
+}
+#bloc4{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    background-image:url('../res/web4.png');
+    display:inline-block;
+    opacity: 1;
+
+}
+#bloc4:hover{
+    opacity: 0.5;
+    
+}
+#web4{
+    margin-top:120px;
+    display:none;
+    position:absolute;
+    
+} 
+#bloc5{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    background-image:url('../res/web5.jpg');
+    display:inline-block;
+    opacity: 1;
+
+}
+#bloc5:hover{
+    opacity: 0.5;
+    
+}
+#web5{
+    margin-top:120px;
+    display:none;
+    position:absolute;
+    
+} 
+#bloc6{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    background-image:url('../res/web6.png');
+    display:inline-block;
+    opacity: 1;
+
+}
+#bloc6:hover{
+    opacity: 0.5;
+    
+}
+#web6{
+    margin-top:120px;
+    display:none;
+    position:absolute;
+    
+} 
+#ent li,h1{
+    margin-left:70px;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+#contact ,h2{
+    color:white;
+    font-size: 1.0em;
+    margin-left:70px;
+}
+#ent li a,h1{
+    color:white ;
+}
+#ent li a:hover {
+    color:rgb(223, 149, 149) ;
+
+}
+#contact>input ,#contact>select{
+    font-size: 1.5em;
+    width : 25%;
+    height: 40%;
+
+}
+ #contact button {
+    width : 10%;
+    height: 50%;
+} 
+body {
+    background: Linear-gradient(217deg, rgba(153, 18, 18, 0.8), rgba(153, 18, 18, 0) 70.71%),
+    Linear-gradient(127deg, rgb(146, 85, 85), rgb(131, 75, 75) 70.71%),
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+}
+#txtar{
+    max-width: 200px;
+    max-height: 100px;
+}
+#myCarousel.item{
+    height: 400px;
+}
+#slide1{
+    background-image: url('res/img2.png') center no-repeat;
+
+}
+#slide2{
+    background-image: url('res/img1.jpeg') center no-repeat;
+    
+}
+#slide3{
+    background-image: url('res/slider1.png') center no-repeat;
+    
+}
+.carousel-caption{
+    font-size: 18px;
+}
